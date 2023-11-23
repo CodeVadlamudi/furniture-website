@@ -3,7 +3,13 @@ import React from "react";
 
 function Newsletter() {
   return (
-    <section className="px-5 bg-[url('./images/newsletter.png')] bg-cover bg-center h-96">
+    <section
+      style={{
+        backgroundImage: "url('./images/newsletter.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+      className="px-5 h-96">
       <div className="max-w-screen-sm mx-auto">
         <div className="py-28 space-y-2 text-center">
           <h2 className="font-medium text-3xl sm:text-4xl">
